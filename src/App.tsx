@@ -1,54 +1,32 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Link, Route, Routes } from 'react-router-dom';
+import NoPageTemplate from './NoPage/NoPage';
+import ProfileTemplate from './Profile/ProfileTemplate';
+import SettingsTemplate from './Settings/SettingsTemplate';
+import { Footer, Header, Main, Wrapper } from './StyledApp';
 
-
-const Wrapper = styled.div`
-  margin: 0 auto;
-  width: 1200px;
-`;
-
-const Header = styled.div`
-  padding: 30px;
-  background-color: antiquewhite;
-
-  ul {
-    list-style: none;
-    display: flex;
-    
-    li {
-      padding-right: 10px;
-    }
-  }
-`;
-
-const Main = styled.div`
-  padding: 30px;
-  background-color: rgb(144, 182, 185);
-`;
-
-const Footer = styled.div`
-  padding: 30px;
-  background-color: rgb(165, 144, 185);
-`;
-
-function App() {
+const App = () => {
   return (
     <Wrapper>
       <Header>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/profile">Profile</a></li>
-          <li><a href="/settings">Settings</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/profile">Profile</Link></li>
+          <li><Link to="/settings">Settings</Link></li>
         </ul>
       </Header>
       <Main>
-        Content
+        <Routes>
+          <Route path="/profile" element={<ProfileTemplate />} />
+          <Route path="/settings" element={<SettingsTemplate />} />
+          <Route path="*" element={<NoPageTemplate />} />
+        </Routes>
       </Main>
       <Footer>
         <a href="/">Life like a game!</a>  
       </Footer>
     </Wrapper>
   );
-}
+};
 
 export default App;
