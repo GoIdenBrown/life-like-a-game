@@ -1,40 +1,40 @@
-# Что?
+# What?
 
-Приложение для игры в жизнь. 
+Life like a game!
 
-Иногда нам так хочется начать бегать по утрам или вести отчет по своим тратам, но все как то не получается. Это приложение создается для того, что бы превратить жизнь в игру!
+Sometimes we really want to start running in the morning or keep a record of our spending, but somehow it doesn’t work out. This application is created in order to turn life into a game!
 
-1. Модуль Хобби
+1. Module "Hobby"
     
-    Идея модуля - развитие хобби, путем ежедневной записи прогресса в приложение. Приложение будет, вести стрик, а так же поощрять, если вы достигли N количества дней подряд.
+    The idea of ​​the module is to develop a hobby by recording daily progress in the application. The application will lead a streak, as well as encourage if you have reached N number of days in a row.
     
-    Референс - Duolingo
+    Reference - Duolingo
     
-2. Модуль Инвестиции
+2. Module "Investment" 
     
-    Идея модуля - вести отчетность о своих доходах и расходах. Приложение будет подсчитывать, сколько вы потратили на ту или иную статью расходов, сколько вы накопили и так далее.
+    The idea of ​​the module is to keep records of your income and expenses. The application will calculate how much you have spent on a particular expense item, how much you have accumulated, and so on.
     
-3. Модуль Квесты 
+3. Module "Quest"
     
-    Идея модуля - превратить ваши повседневные дела, будь то поход в магазин или мытье окон в квесты. За каждое дело формируется награда, таким образом, вы явно видите что вы получите и какие характеристики вашего персонажа повысятся
+    The idea of ​​the module is to turn your everyday activities, whether it's going to the store or washing windows, into quests. A reward is formed for each case, so you clearly see what you will get and what characteristics of your character will increase
     
-    Референс - RPG игры
+    Reference - RPG games
     
-4. Модуль статистика и характеристики. 
+4. Module "Statistics"
     
-    Вся суть приложения, это сделать из жизни игру, а какая игра без статистики?! Этот модуль по сути финальная часть приложения, которая будет в себе агрегировать все остальные моменты и показывать статистику по вашему персонажу 
+    The whole essence of the application is to make life like a game, and what game is without statistics?! This module is essentially the final part of the application, which will aggregate all the other moments in itself and show statistics on your character
 
-# Зачем?
+# Why?
 
-Хочу сделать такое приложение
+1. I just want to make this app! Looks like it will be fun!
 
-Прокачать hard skills
+2. Upgrade hard skills
 
-Мой git достаточно пустой, хочу показать, что умею!
+3. Show off 🤣
 
-# Стек
+# Technology stack
 
-**Front -** Ts React
+**Front -** React TypeScript
 
 **Back -** Nest TypeORM
 
